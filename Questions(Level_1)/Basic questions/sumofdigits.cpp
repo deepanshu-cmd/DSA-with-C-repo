@@ -1,4 +1,4 @@
-// Program to print sum and multiplication of digits entered.
+//? Program to print sum and multiplication of digits entered.
 /*
   logic:
   let a number N=XYZ;
