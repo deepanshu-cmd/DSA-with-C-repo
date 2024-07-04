@@ -1,4 +1,11 @@
 //? Pattern-12
+/*
+*****
+ ****
+  ***
+   **
+    *
+*/
 #include <iostream>
 #include <iomanip>
 using namespace std;
