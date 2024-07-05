@@ -10,7 +10,7 @@ int main()
            //* loop body(c++ code);
         }
     */
-    //    Table of a no.
+    //%    Table of a no.
     int N, n;
     cout << "Enter your no.(n):";
     cin >> n;

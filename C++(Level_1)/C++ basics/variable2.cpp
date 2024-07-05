@@ -22,6 +22,6 @@ int main()
     babita(); //? Function call.
 }
 
-//? Local variable are declared inside the function and thier scope ends after coming out of the function.
+//? Local variable are declared inside the function and their scope ends after coming out of the function.
 //? Gloable variable are declared outside of function body and can be accesed from anywhere.There scope is not limited its available for every function who calls it.
 //! NOTE:Precendence of local variable is higher than global
