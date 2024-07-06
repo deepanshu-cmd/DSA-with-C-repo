@@ -1,34 +1,36 @@
+//? Coverting Decimal to binary.
 #include <iostream>
 #include <math.h>
 #include <iomanip>
 using namespace std;
+//* Logic :- taking '&' of given no. 'n' with 1. n&1= bit,if bit=1 then no.(n) is odd or if bit=0 then no.(n) is even.Storing bit into another variable 'ans' by multiplying it with 10^i where i =0 and i++ till n!=0 and adding 'ans' [ans = (bit * pow(10, i)) + ans].Modifying 'n' by right shifting it by 1 bit[n=n>>1] till it becomes 0.Once all bits of 'n' becomes zero ,program will come out of loop and 'ans' gets displayed on screen.
 
 int main()
 {
-    // long long int d, n, ans = 0;
-    // cout << "Enter your number : ";
-    // cin >> n;
-    // n = d;
-    // for (int i = 0; n != 0; i++,n = n >> 1 )
-    // {
-    //     int bit = n & 1;
-    //     ans = (bit * pow(10, i)) + ans;
-    // }
-    // cout << "Binary form of " << d << " is " << ans << endl;
-
     int n;
-    cout << "Enter n : ";
+    cout << "Enter your number : ";
     cin >> n;
     float ans = 0;
-    int i = 0;
-    while (n != 0)
+    for (int i = 0; n != 0; i++, n = n >> 1)
     {
         int bit = n & 1;
-        cout << bit << endl;
         ans = (bit * pow(10, i)) + ans;
-        n = n >> 1;
-        i++;
     }
-    cout << "Binary form " << ans << endl;
+    cout << "Binary form is " << ans << endl;
+
+    //! int n;
+    // cout << "Enter n : ";
+    // cin >> n;
+    // float ans = 0;
+    // int i = 0;
+    // while (n != 0)
+    // {
+    //     int bit = n & 1;
+    //     cout << bit << endl;
+    //     ans = (bit * pow(10, i)) + ans;
+    //     n = n >> 1;
+    //     i++;
+    // }
+    // cout << "Binary form " << ans << endl;
     return 0;
 }
