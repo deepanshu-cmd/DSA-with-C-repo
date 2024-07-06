@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    long long int n, r, sum = 0, t;
+    long long int n, r, sum = 0;
     cout << "Enter your number:";
     cin >> n;
     // while (n != 0)
