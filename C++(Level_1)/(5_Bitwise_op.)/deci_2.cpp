@@ -1,3 +1,4 @@
+//? Program to convert binary number to decimal no. 
 #include <iostream>
 #include <math.h>
 #include <iomanip>
@@ -18,6 +19,5 @@ int main()
         }
     }
     cout << ans << endl;
-    // cout <<  << endl;
     return 0;
 }
