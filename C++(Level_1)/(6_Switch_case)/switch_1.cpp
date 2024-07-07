@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
+//? Switch case is conditional statement.It has case in it ,if case value matches to expression than that case block gets executed.
 int main()
 {
     char ch = '1';
@@ -13,7 +13,7 @@ int main()
         break;
 
     case '1':
-    //* Nested switch_case. 
+        //* Nested switch_case.
         switch (num)
         {
         case 1:

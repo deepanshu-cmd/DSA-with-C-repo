@@ -1,4 +1,4 @@
-//?A function is a block of code that performs some operation. A function can optionally define input parameters that enable callers to pass arguments into the function. A function can optionally return a value as output.
+//?A function is a block of code that performs some operation. A function can optionally define input parameters that enable callers to pass arguments into the function. A function can optionally return a value as output.A function perform some specific task.Using functions reduces bulkyness of code,makes code readable and
 /*
 Syntax :-
 return_type func_name(arg_1,arg_2,.....arg_n)
