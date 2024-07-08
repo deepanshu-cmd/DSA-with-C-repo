@@ -34,7 +34,7 @@ int setBits_A(int a)
 int main()
 {
     int a, b;
-    cout<<"Enter a & b";
+    cout<<"Enter a & b : ";
     cin >> a >> b;
     int ans1 = setBits_A(a);
     int ans2 = setBits_B(b);
