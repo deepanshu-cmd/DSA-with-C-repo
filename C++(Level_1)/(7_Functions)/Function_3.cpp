@@ -3,14 +3,14 @@
 #include <iomanip>
 using namespace std;
 
-//% Callee 
+//% Callee
 void dunmmy(int n)
 {
     n++;
     cout << "value of n in dummy function : " << n << endl;
 }
 
-//% Caller 
+//% Caller
 int main()
 {
     int n;

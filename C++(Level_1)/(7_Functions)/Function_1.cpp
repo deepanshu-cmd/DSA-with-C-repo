@@ -27,12 +27,10 @@ int power(int x, int y)
 
 int main()
 {
-    int num_1, num_2;
-    //% power(arg_1,arg_2,......arg_n) -----> Function Call.
-    cout << "Answer is " << power(num_1, num_2) << endl;
-    cout << "Answer is " << power(num_1, num_2) << endl;
-    cout << "Answer is " << power(num_1, num_2) << endl;
-    cout << "Answer is " << power(num_1, num_2) << endl;
-    cout << "Answer is " << power(num_1, num_2) << endl;
+    int x, y;
+    for (int i = 0; i <= 5; i++)
+    {
+        cout << "Answer = " << power(x, y) << endl;
+    }
     return 0;
 }
