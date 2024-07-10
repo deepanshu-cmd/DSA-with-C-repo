@@ -14,12 +14,14 @@ void Array(int arr_name[], int arr_size)
 
 int main()
 {
-    //% Here size is 15 but we only give 10 element.It won't give error.
-    int num[15] = {15, 30, 45, 60, 75, 90, 105, 120, 135, 150};
+    //% Here size is 15 but we only give 10 element.It won't give error.The rest five indexes get filled with zero.
+    const int size = 15;
+    int num[size] = {15, 30, 45, 60, 75, 90, 105, 120, 135, 150};
     Array(num, 15);
     cout << endl;
-    
+
     //% Actual length is 10 but on display we get 15.
-    cout << "Length of num : " << sizeof(num) / sizeof(int) << endl;
+    cout << "Size of num : " << sizeof(num) << '\n'
+         << "Length of num : " << sizeof(num) / sizeof(int) << endl;
     return 0;
 }

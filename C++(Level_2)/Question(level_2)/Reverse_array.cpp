@@ -1,4 +1,4 @@
-//? Printing element of arrays in reverse oder. 
+//? Printing element of arrays in reverse oder.
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -16,7 +16,8 @@ int main()
         cin >> arr_num[i];
     }
 
-    cout << "arr_num = " << " ";
+    cout << endl
+         << "arr_num = " << " ";
     for (int i = 0; i < length; i++)
     {
         cout << arr_num[i] << " ";
