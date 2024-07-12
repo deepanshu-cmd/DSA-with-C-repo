@@ -21,7 +21,7 @@ int main()
     cout << endl;
 
     //* Initialization and Accessing elements of an array.
-    //^ array_name[size of array]={e1,e2,.....en} ---> Initialization.
+    //^ syntax ---> array_name[size of array] = {e1,e2,.....en} ---> Initialization.
     int arr_num_3[5] = {2, 4, 6, 8, 10};
     cout << "1st element of arr_num_3 = " << " " << arr_num_3[0] << " " << "address = " << &(arr_num_3[0]) << '\n'
          << "2nd element of arr_num_3 = " << " " << arr_num_3[1] << " " << "address = " << &(arr_num_3[1]) << '\n'

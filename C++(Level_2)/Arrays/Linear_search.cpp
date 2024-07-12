@@ -9,6 +9,7 @@ bool search(int arr[], int size, int key)
     {
         if (arr[i] == key)
         {
+            cout << "At index " << i << "," << " ";
             return 1;
         }
     }

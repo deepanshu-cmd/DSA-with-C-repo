@@ -3,7 +3,7 @@
 #include <iomanip>
 using namespace std;
 
-//! Passed array must be of integer type means we can't use this function for charter array ,for that we need make anohter function.
+//! Passed array must be of integer type means we can't use this function for character array ,for that we need to make anohter function.
 void Array(int arr_name[], int arr_size)
 {
     for (int i = 0; i < arr_size; i++)
@@ -17,7 +17,7 @@ int main()
     //% Here size is 15 but we only give 10 element.It won't give error.The rest five indexes get filled with zero.
     const int size = 15;
     int num[size] = {15, 30, 45, 60, 75, 90, 105, 120, 135, 150};
-    Array(num, 15);
+    Array(num, size);
     cout << endl;
 
     //% Actual length is 10 but on display we get 15.
