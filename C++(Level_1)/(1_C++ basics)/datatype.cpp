@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; //* Explicit qaulification.
 
 int main()
 {
@@ -20,4 +20,8 @@ int main()
 
         4.Structure type-- > arrays, stuct, union, class.
     */
+
+    //% Char,int,float,double & bool are fundamental D.T more specifically arthematic D.T.
+    //% Void and nullptr are also fundamental D.T.
+    //% Arrays,struct,enum,union,class etc these all are Compound D.T.
 }
