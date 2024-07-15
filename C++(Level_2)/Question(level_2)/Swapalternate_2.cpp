@@ -1,16 +1,16 @@
-//? Program to swap alternate elements of an array.
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
+//! Not working when size is odd.
 int swap(int arr[], int size)
 {
-    for (int i = 0; i < size; i += 2)
+
+    for (int i = 0; i < size-1; i = i + 2)
     {
-        if (i + 1 < size)
-        {
-            swap(arr[i], arr[i + 1]);
-        }
+        int temp = arr[i];
+        arr[i] = arr[i + 1];
+        arr[i + 1] = temp;
     }
 }
 

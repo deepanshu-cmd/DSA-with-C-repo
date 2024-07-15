@@ -39,7 +39,7 @@ int main()
             //% Second Method.Uncommnet line no.45.
             /*if (arr_num[i] == arr_num[j])
             {
-                break;;
+                break;
             }*/
         }
         // if (j==length)
