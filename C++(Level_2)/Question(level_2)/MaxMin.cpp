@@ -6,8 +6,7 @@ using namespace std;
 //* Min value function:
 int min_arr(int arr_min[], int length)
 {
-    int min = 0;
-    min = arr_min[0];
+    int min = arr_min[0];
     for (int i = 0; i < length; i++)
     {
         if (min > arr_min[i])
@@ -21,8 +20,7 @@ int min_arr(int arr_min[], int length)
 //* Max value function:
 int max_arr(int arr_max[], int length)
 {
-    int max = 0;
-    max = arr_max[0];
+    int max = arr_max[0];
     for (int i = 0; i < length; i++)
     {
         if (max < arr_max[i])

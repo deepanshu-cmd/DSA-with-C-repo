@@ -2,7 +2,6 @@
 #include <iomanip>
 using namespace std;
 
-//! Not working when size is odd.
 int swap(int arr[], int size)
 {
 
