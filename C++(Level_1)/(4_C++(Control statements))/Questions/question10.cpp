@@ -14,6 +14,6 @@ int main()
         cout << f << "*" << i << "=" << f * i << endl;
         f = f * i;
     }
-    cout << "factorial of" << n << "is=" << f << endl;
+    cout << "factorial of" << n << " is = " << f << endl;
     return 0;
 }

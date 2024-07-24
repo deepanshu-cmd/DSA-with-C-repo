@@ -3,7 +3,7 @@
 #include <iomanip>
 using namespace std;
 
-int odd()
+void odd()
 {
     int sum = 0, i;
     cout << "Enter i for sum of odd no.:";
@@ -22,7 +22,7 @@ int odd()
     cout << "Sum of odd no.=" << sum << endl;
 }
 
-int main()
+void even()
 {
     int sum = 0, i;
     cout << "Enter i for sum of even no.:";
@@ -38,7 +38,12 @@ int main()
         i++;
     }
     cout << endl;
-    cout << "Sum of even no.=" << sum << endl;
+    cout << "Sum of odd no.=" << sum << endl;
+}
+
+int main()
+{
+    even();
     odd();
 
     return 0;

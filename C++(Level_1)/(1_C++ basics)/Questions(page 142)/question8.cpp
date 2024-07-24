@@ -2,9 +2,11 @@
 #include <iostream>
 using namespace std;
 
+long double one_cubicfoot = 7.481;
+
 int main()
 {
-    long double one_cubicfoot = 7.481, G, N;
+    long double G, N;
     cout << "Enter no. of gallons(G):";
     cin >> G;
     N = one_cubicfoot * G;

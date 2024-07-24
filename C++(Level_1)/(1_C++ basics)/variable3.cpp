@@ -7,11 +7,12 @@ int main()
 {
     int num = 26;
     auto bar = num; //% Same as int a = num;
-    //* Here, bar is declared as having an auto type; therefore, the type of bar is the type of the value used to initialize it: in this case it uses the type of foo, which is int.
-    
+    //* Here, bar is declared as having an auto type; therefore, the type of bar is the type of the value used to initialize it: in this case it uses the type of num, which is int.
+    cout << "num = " << num << '\t' << "bar = " << bar << endl;
     int num_2 = 20;
     decltype(num_2) bar_2;
     //*bar is declared as having the same type as num_2.
+    cout << "num_2 = " << num_2 << '\t' << "bar_2 = " << bar_2 << endl;
 
     return 0;
 }

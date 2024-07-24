@@ -1,4 +1,4 @@
-//? Program to convert binary number to decimal no. 
+//? Program to convert binary number to decimal no.
 #include <iostream>
 #include <math.h>
 #include <iomanip>

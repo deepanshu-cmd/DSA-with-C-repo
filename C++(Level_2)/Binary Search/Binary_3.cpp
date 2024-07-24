@@ -39,7 +39,6 @@ int main()
         cout << arr[i] << " ";
     }
     cout << endl;
-    // int mid = peak(arr, length);
     cout << "Peak element = " << arr[peak(arr, length)] << " at index " << peak(arr, length) << endl;
     return 0;
 }

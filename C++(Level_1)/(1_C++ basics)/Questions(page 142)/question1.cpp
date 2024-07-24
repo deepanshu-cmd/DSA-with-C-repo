@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// ? Celcius ----> fahrenheit
+//? Celcius ----> fahrenheit
 void Fahrenheit()
 {
     double F, C;
@@ -12,14 +12,20 @@ void Fahrenheit()
     cout << "F=" << F << endl;
 }
 
-// ? Fahrenheit ----> Celcius.
-int main()
+//? Fahrenheit ----> Celcius.
+void Celcius()
 {
     double F, C;
     cout << "Enter tempratur in Fahrenheit:";
     cin >> F;
     C = (F - 32) * 5 / 9;
     cout << "C=" << C << endl;
+}
+
+int main()
+{
+
+    Celcius();
     Fahrenheit();
     return 0;
 }

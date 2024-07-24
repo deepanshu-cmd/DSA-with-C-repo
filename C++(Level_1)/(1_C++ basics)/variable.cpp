@@ -13,5 +13,5 @@ int main()
     cout << "b = " << b << endl;
     cout << "c = " << c << endl;
     return 0;
-    //* Above all variable are declared locally(all are local variable).After coming out of main function their scope ends
+    //* Above all variable are declared locally(all are local variable).After coming out of main function their scope ends.
 }

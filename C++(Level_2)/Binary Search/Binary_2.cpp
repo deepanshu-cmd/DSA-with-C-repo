@@ -43,7 +43,11 @@ int Firstoccurence(int arr[], int length, int key)
         {
             start = mid + 1;
         }
-        else if (key < arr[mid])
+        /*else if (key < arr[mid])
+        {
+            end = mid - 1;
+        }*/
+        else
         {
             end = mid - 1;
         }
@@ -81,4 +85,3 @@ int main()
 
     return 0;
 }
-
