@@ -8,12 +8,11 @@ int main()
     char s;
     cout << "Enter number of rows(n) : ";
     cin >> n;
-    int n1 = n;
     cout << "Enter the symbol you want in pattern(s) : ";
     cin >> s;
-    for (i = 1; i <= n; i++, n1--) //% Rows.
+    for (i = n; i >= 1; i--) //% Rows.
     {
-        for (j = n1; j >= 1; j--) //% Column.
+        for (j = i; j >= 1; j--) //% Column.
         {
             cout << s;
         }
