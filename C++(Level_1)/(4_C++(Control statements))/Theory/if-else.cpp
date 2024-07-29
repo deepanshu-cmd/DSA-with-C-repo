@@ -22,4 +22,4 @@ int main()
     return 0;
 }
 
-//! NOTE: for else if() block if() block existence is neccassary.
+//! NOTE: for else if() block ,if() block existence is neccassary.

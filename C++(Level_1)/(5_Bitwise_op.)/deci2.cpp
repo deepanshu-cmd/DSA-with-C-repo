@@ -1,6 +1,6 @@
 //? Program to convert binary number to decimal no.
 #include <iostream>
-#include <math.h>
+#include <math.h> //% for functionpow
 #include <iomanip>
 using namespace std;
 
