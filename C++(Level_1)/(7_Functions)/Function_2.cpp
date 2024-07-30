@@ -2,8 +2,8 @@
 #include <iomanip>
 using namespace std;
 
-//% 1 -----> Even
-//% 0 -----> Odd
+//% 0 -----> Even
+//% 1 -----> Odd
 bool isEven(int a)
 {
     if (a & 1 == 1)

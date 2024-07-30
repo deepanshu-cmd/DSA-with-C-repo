@@ -10,7 +10,7 @@ int main()
     cout << "Enter number(x) : ";
     cin >> x;
     int INT_MAX = pow(2, 31) - 1;
-    int INT_MIN = pow(2, 31);
+    int INT_MIN = -pow(2, 31);
     for (; x != 0; x = x / 10)
     {
         r = x % 10;
