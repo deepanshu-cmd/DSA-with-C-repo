@@ -67,12 +67,6 @@ int main()
     {
         cin >> arr[i];
     }
-    cout << "arr = ";
-    for (int i = 0; i < length; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
     int key;
     cout << "Enter your key : ";
     cin >> key;

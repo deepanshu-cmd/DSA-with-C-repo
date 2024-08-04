@@ -8,7 +8,7 @@ int binary(int arr[], int length, int key)
 {
     int start = 0, end = length - 1;
     //! int mid = (start + end)/2; ----> This will give error if 'mid' get assigned with the value which is not in the range of int[2^31-1,-(2^31-1)].
-    int mid = start + (end - start) / 2; //% To avoid integer overflow this statement is valid.
+    int mid = start + (end - start) / 2; //% To avoid integer overflow, this statement is valid.
     while (start <= end)
     {
 
@@ -39,11 +39,6 @@ int main()
     for (int i = 0; i < length; i++)
     {
         cin >> arr[i];
-    }
-    cout << "arr = ";
-    for (int i = 0; i < length; i++)
-    {
-        cout << arr[i] << " ";
     }
     cout << endl;
     int key;
