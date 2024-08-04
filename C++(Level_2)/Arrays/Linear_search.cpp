@@ -1,4 +1,4 @@
-//? Linear Search : The linear search algorithm is defined asF a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found; otherwise, the search continues till the end of the dataset.
+//? Linear Search : The linear search algorithm is defined asF a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found; otherwise, the search continues till the end of the dataset.Time Complexity: O(1).
 #include <iostream>
 #include <iomanip>
 using namespace std;

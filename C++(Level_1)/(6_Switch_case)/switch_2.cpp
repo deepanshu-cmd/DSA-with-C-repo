@@ -1,4 +1,4 @@
-//? Use switch_case statement in an infinite loop all exit from it. 
+//? Use switch_case statement in an infinite loop all exit from it.
 #include <iostream>
 #include <iomanip>
 using namespace std;

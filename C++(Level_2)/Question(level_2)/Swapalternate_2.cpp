@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-int swap(int arr[], int size)
+void swap(int arr[], int size)
 {
 
     for (int i = 0; i < size-1; i = i + 2)

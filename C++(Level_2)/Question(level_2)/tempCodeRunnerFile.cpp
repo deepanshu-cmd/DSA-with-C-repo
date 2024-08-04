@@ -1,2 +1,2 @@
-cout << endl
-         << unique(arr_num, length) << endl;
+cout << '\n'
+    //      << "Repeated element = " << duplicates(arr, length) << endl;

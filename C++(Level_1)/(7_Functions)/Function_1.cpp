@@ -11,15 +11,15 @@ return_type func_name(arg_1,arg_2,.....arg_n)
 #include <iomanip>
 using namespace std;
 
-int power(int x, int y)
+int power(int n, int N)
 {
     //% Function body
     cout << "Enter your number(x) and its power(y) : ";
-    cin >> x >> y;
+    cin >> n >> N;
     int ans = 1;
-    for (int i = 1; i <= y; i++)
+    for (int i = 1; i <= N; i++)
     {
-        ans = ans * x;
+        ans = ans * n;
     }
     //* cout << "Answer = " << ans << endl; use void instead of int and then run the program.
     return ans; //% Returning int value.
@@ -34,3 +34,5 @@ int main()
     }
     return 0;
 }
+
+//% Arguments in function call(x,y) are called actual argument or actual parameters and argument in function declaration(n,N) are called formal paramenters or arguments.

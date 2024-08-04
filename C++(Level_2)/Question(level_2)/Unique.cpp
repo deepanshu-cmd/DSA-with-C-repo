@@ -9,7 +9,7 @@ int main()
     cin >> length;
     int arr_num[length];
     cout << "Enter elements of your array : ";
-    //* Read elements in array.
+    //* Read elements of array.
     for (int i = 0; i < length; i++)
     {
         cin >> arr_num[i];
@@ -36,7 +36,7 @@ int main()
             {
                 count++;
             }
-            //% Second Method.Uncommnet line no.45.
+            //% Second Method,Uncommnet line no.45.
             /*if (arr_num[i] == arr_num[j])
             {
                 break;

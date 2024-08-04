@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-//@ NOTE: case value type must be same as expression in switch(expression). 
+//@ NOTE: case value type must be same as expression value type in switch(expression). 
 int main()
 {
     int age;

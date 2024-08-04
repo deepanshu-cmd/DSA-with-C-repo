@@ -1,8 +1,8 @@
-  // if (type == 0)
-    // {
-    //     charpattern(n, c);
-    //     charpattern2(n, c);
-    //     charpattern3(n, c);
-    //     charpattern4(n, c);
-    //     charpattern5(n, c);
-    // }
+for (int space = n - i; space >= 1; space--)
+        // {
+        //     cout << ' ';
+        // }
+        // for (int j = 1; j <= i; j++)
+        // {
+        //     cout << s << ' ';
+        // }
