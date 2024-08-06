@@ -1,4 +1,4 @@
-//? W.A.P to print peak element in array mountain. 
+//? W.A.P to print peak element in array mountain.
 #include <iostream>
 #include <iomanip>
 using namespace std;
