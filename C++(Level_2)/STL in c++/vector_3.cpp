@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {
     //* Initializing a vector of size n with a single value:-
-    //^ vector<int> numbers(10, 26);
-    vector<int> numbers(10);
-    fill(numbers.begin(), numbers.end(), 26);
+    // vector<int> numbers(10);
+    // fill(numbers.begin(), numbers.end(), 26);
+    vector<int> numbers(10, 26);
     for (int i = 0; i < numbers.size(); i++)
     {
         cout << numbers[i] << " ";
@@ -30,7 +30,7 @@ int main()
     cout << endl;
     //% begin() and end() are itrators.
 
-    //? Creating a vector which container boolean values:-
+    //? Creating a vector which contain boolean values:-
     // vector<bool> value(10, false);
     vector<bool> value(10, true);
     for (int i = 0; i < value.size(); i++)

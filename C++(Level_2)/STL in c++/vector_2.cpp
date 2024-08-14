@@ -3,6 +3,8 @@
 #include <vector>
 using namespace std;
 
+//? The size of a vector is the number of elements that it contains, which is directly controlled by how many elements you put into the vector. Capacity is the amount of total space that the vector has. Under the hood, a vector just uses an array. The capacity of the vector is the size of that array.
+
 int main()
 {
     vector<int> numbers;
