@@ -7,7 +7,7 @@ int main()
 {
     //* size(),max_size() & capacity():
     //^ The capacity does not suppose a limit on the size of the vector. When this capacity is exhausted and more is needed, it is automatically expanded by the container (reallocating it storage space). The theoretical limit on the size of a vector is given by member max_size.
-    vector<float> number = {26.200, 15.200, 6.11, 31.0};
+    vector<float> number = {26.201, 15.202, 6.11, 31.03};
     vector<float>::iterator float_num;
     for (float_num = number.begin(); float_num < number.end(); float_num++)
     {

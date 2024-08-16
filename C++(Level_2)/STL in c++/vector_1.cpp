@@ -13,10 +13,10 @@ int main()
 
     //^ Initializtion: vector_name={e1,e2,e3,......};
     //^ Initializtion2: vector_name.push_back(value);
-    numbers.push_back(26);
-    numbers.push_back(20);
-    numbers.push_back(6);
-    numbers.push_back(11);
+    // numbers.push_back(26);
+    // numbers.push_back(20);
+    // numbers.push_back(6);
+    // numbers.push_back(11);
     int value;
     for (int i = 0; i < 5; i++)
     {
@@ -29,9 +29,10 @@ int main()
         //^ Accessing elements: vector_name[index];
         cout << numbers[i] << " ";
     }
+    cout << endl;
 
     vector<int> num(10);
-    cout << "Enter elements of your vector: ";
+    cout << "Enter elements of your vector(num): ";
     for (int i = 0; i < 10; i++)
     {
         cin >> num[i];
