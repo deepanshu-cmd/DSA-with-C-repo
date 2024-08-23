@@ -55,7 +55,6 @@ int main()
      cout << "p6==p7 : " << (p6 == p7) << endl;
      cout << "p6!=p7 : " << (p6 != p7) << endl;
 
-     //@ NOTE: Initializing pairs will give 0 value as an output except for string(nothing would be printed).
-
      return 0;
+     //@ NOTE: NOT Initializing pairs will give 0 value as an output except for string(nothing would be printed).
 }
