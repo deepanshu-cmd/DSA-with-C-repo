@@ -5,7 +5,7 @@
 #include <limits.h>
 using namespace std;
 
-//* If number of set bit of an decimal no is equals to 1 then that no. is equal to power of 2.
+//* If number of set bit of an decimal no. is equals to 1 then that no. is equal to power of 2.
 bool Power2(int x)
 {
     int count = 0;
@@ -20,9 +20,7 @@ bool Power2(int x)
     }
 
     if (count == 1)
-    {
         return true;
-    }
     else
         return false;
 }

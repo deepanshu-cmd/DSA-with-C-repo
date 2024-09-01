@@ -14,7 +14,7 @@ using namespace std;
 int power(int n, int N)
 {
     //% Function body
-    cout << "Enter your number(x) and its power(y) : ";
+    cout << "Enter your number(n) and its power(N) : ";
     cin >> n >> N;
     int ans = 1;
     for (int i = 1; i <= N; i++)
@@ -22,7 +22,7 @@ int power(int n, int N)
         ans = ans * n;
     }
     //* cout << "Answer = " << ans << endl; use void instead of int and then run the program.
-    return ans; //% Returning int value.
+    return ans; //% Returning integer value.
 }
 
 int main()
